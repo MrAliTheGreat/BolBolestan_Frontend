@@ -1,0 +1,13 @@
+apiVersion: v1                  # API version
+kind: Service                   # Type of kubernetes resource
+metadata:
+  name: front-svc               # Name of the kubernetes resource
+spec:
+  type: NodePort                # Exposes the service by opening a port on each node
+  selector:
+    app: front-deploy           # Any Pod matching the label app=front-deploy will be picked up by this service
+  ports:                        # Forward incoming connections on port 80 to the target port 80 in the Pod
+    - name: http
+      port: 80
+      nodePort: 31010
+      targetPort: 80

@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css");
+
+.rowArea .areaMenu .BottomCoursesList .FinalizeButton {
+    background: #06D6A0 !important;
+    border: 0px !important;
+    font-size: 14px !important;
+    padding: 0.3rem 2rem !important;
+    border-radius: 0.3rem !important;
+    color: white;
+}
+
+.defaultButton{
+    border: 0px !important;
+    background: white;
+    text-align: center;
+}
+
+.defaultButton .chosenCategoryButton{
+    width: 100%;
+    background: #1FA5FF;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: grey;
+    padding: 10px;
+}
+
+.defaultButton .defaultCategoryButton{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: grey;
+    padding: 10px;
+}
+
+.defaultButton .addOfferButton {
+    background: #28A745;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.defaultButton .waitingOffer {
+    background: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+}

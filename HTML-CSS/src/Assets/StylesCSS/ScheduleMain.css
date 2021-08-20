@@ -1,0 +1,88 @@
+@import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css");
+@import "../StylesCSS/Header.css";
+@import "../StylesCSS/Footer.css";
+@import "../StylesCSS/TableCSS.css";
+@import "../StylesCSS/SearchCourses.css";
+@import "../StylesCSS/Buttons.css";
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; /* Because of header height */
+    direction: rtl;
+    font-family: "Vazir", serif !important;
+    background-color: white !important;
+    position: relative;
+}
+.rowArea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.rowArea .topArea {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #1FA5FF;
+    border-radius: 12px;
+    background: white;
+}
+.topArea .calender_icon{
+    color: #1FA5FF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    padding-right : 0px;
+
+}
+.topArea .icon_text{
+    color : gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.topArea .term_text{
+    color : gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rowArea2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : -10px;
+    margin-bottom: 50%;
+}
+
+.rowArea2 .downArea{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #4169E1;
+    border-radius: 5px;
+    background: white;
+}
+.downArea .tableArea{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+}

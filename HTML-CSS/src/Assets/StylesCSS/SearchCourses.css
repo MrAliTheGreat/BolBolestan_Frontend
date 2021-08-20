@@ -1,0 +1,35 @@
+@import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css");
+
+.searchArea{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchArea .searchBar {
+    width: 40%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: white;
+}
+
+.searchArea .searchBar .searchTextBox{
+    align-items: center;
+    width: 100px;
+}
+
+.searchArea .searchBar .searchButton{
+    width: 100%;
+    background: #06D6A0; !important;
+    border: 0px !important;
+    font-size: 14px !important;
+    padding: 0.3rem 2rem !important;
+    border-radius: 0.3rem !important;
+    color: white;
+}

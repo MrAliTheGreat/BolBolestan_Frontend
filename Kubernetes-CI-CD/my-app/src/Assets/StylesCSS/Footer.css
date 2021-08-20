@@ -1,0 +1,44 @@
+footer {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    background: #1A4C89;
+    z-index: 100000000000;
+    direction: rtl;
+    font-family: "Vazir", serif !important;
+}
+
+.footer {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 35px;
+}
+
+.icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+}
+
+.icon .copyright{
+    position: relative;
+    font-size: 17px;
+    top: 5px;
+}
+
+.icon .socialMedia{
+    position: relative;
+    font-size: 30px;
+    top: 8px;
+}
+
+.footer_text{
+    color : white;
+    position: relative;
+}

@@ -1,0 +1,220 @@
+@import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css");
+@import "../StylesCSS/Header.css";
+@import "../StylesCSS/Footer.css";
+@import "../StylesCSS/SlideShow.css";
+@import "../StylesCSS/CoursesMain.css";
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; /* Because of header height */
+    direction: rtl;
+    font-family: "Vazir", serif !important;
+    background-color: white !important;
+    position: relative;
+}
+
+.backgroundImage {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.Separator {
+    border-right: solid 5px #1FA5FF;
+}
+
+.ProfileImage{
+    margin-top: 70px;
+    position: relative;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border: solid 2px #1FA5FF;
+}
+
+.studentInfo {
+    display: flex;
+    background: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.studentInfo .title{
+    color: #1FA5FF;
+}
+
+.studentInfo .studyStatus{
+    color: #1FA5FF;
+    border: 2px solid #1FA5FF;
+    border-radius: 5px;
+    width: 45%;
+    padding: 0.8rem 0rem !important;
+}
+
+.studentInfo .titleTextValue{
+    color: #000000;
+    margin-right: 10px;
+}
+
+.studentInfo .title .firstRow{
+    margin-top: 50px;
+}
+
+.studentInfo .titleTextValue .firstRow{
+    margin-top: 50px;
+}
+
+.allPassedCoursesArea{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.allPassedCoursesArea .passCourseArea{
+    margin: 5px 0px;
+    border: 1px solid #1FA5FF;
+    border-radius: 5px;
+    width: 90%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.allPassedCoursesArea .passCourseArea .index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #1FA5FF;
+    font-size: 20px;
+    color: #1FA5FF;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+
+.allPassedCoursesArea .passCourseArea .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #1FA5FF;
+    font-size: 15px;
+    color: black;
+    height: 100%;
+    text-align: center;
+}
+
+.allPassedCoursesArea .passCourseArea .statusArea{
+    color: #1FA5FF;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allPassedCoursesArea .averageArea{
+    margin: 5px 40px;
+    border: 2px solid #1FA5FF;
+    border-radius: 5px;
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.allPassedCoursesArea .averageArea .averageText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.allPassedCoursesArea .passCourseArea .statusArea .passed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #28A745;
+    background: lightgreen;
+    border: 1px solid #28A745;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 30px;
+}
+
+.allPassedCoursesArea .passCourseArea .statusArea .failed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #FF595E;
+    background: lightpink;
+    border: 1px solid #FF595E;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 30px;
+}
+
+.allPassedCoursesArea .passCourseArea .statusArea .notDetermined{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    background: lightgray;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 30px;
+}
+
+.allPassedCoursesArea .passCourseArea .gradePassed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-right: 1px solid #1FA5FF;
+    color: #28A745;
+    font-weight: bold;
+    height: 100%;
+}
+
+.allPassedCoursesArea .passCourseArea .gradeFailed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-right: 1px solid #1FA5FF;
+    color: #FF595E;
+    font-weight: bold;
+    height: 100%;
+}
+
+.allPassedCoursesArea .passCourseArea .gradeNotDetermined{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-right: 1px solid #1FA5FF;
+    color: #000000;
+    font-weight: bold;
+    height: 100%;
+}
+
+.barPhoto{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}

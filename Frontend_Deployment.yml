@@ -1,0 +1,32 @@
+apiVersion: apps/v1             # API version
+kind: Deployment                # Type of kubernetes resource
+metadata:
+  name: front-deploy            # Name of the kubernetes resource
+spec:
+  replicas: 1                   # No of replicas/pods to run
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+  selector:
+    matchLabels:                # This deployment applies to Pods matching the specified labels
+      app: front-deploy
+  template:                     # Template for creating the Pods in this deployment
+    metadata:
+      labels:                   # Labels that will be applied to all the Pods in this deployment
+        app: front-deploy
+    spec:                       # Spec for the containers that will run inside the Pods
+      containers:
+        - name: front-deploy
+          image: quay.io/mr_ali_the_great/ie_forntend_ca9:v1.4
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 80   # Should match the Port that the container listens on
+          resources:
+            limits:
+              memory: "333Mi"
+              cpu: "333m"
+            requests:
+              memory: "333Mi"
+              cpu: "333m"

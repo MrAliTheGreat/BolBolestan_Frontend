@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Courses</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Assets/StylesCSS/CoursesMain.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="BolBolIcon m-1">
+            <img alt="tmp" src="../Assets/Pictures/logo.png">
+        </div>
+        <div class="home m-4">
+            <a href="../Pages/Home.html">
+                خانه
+            </a>
+        </div>
+        <div class="schedule ml-auto">
+            <a href="../Pages/Schedule.html">
+                برنامه هفتگی
+            </a>
+        </div>
+        <div class="logout m-2">
+            <div class="logout_text">
+                خروج
+            </div>
+            <div class="logout_icon">
+                <i class="flaticon-log-out"></i>
+            </div>
+        </div>
+    </div>
+    <div class="lineUnderHeader"></div>
+</header>
+
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 rowArea">
+                <div class="areaMenu">
+                    <div class="menuTitle">
+                        دروس انتخاب شده
+                    </div>
+                    <div class="coursesListArea">
+                        <div class="table-responsive tableInfo">
+                            <!--                    Table is implemented ltr so it's more readable-->
+                            <table class="table tableCourses">
+                                <tr>
+                                    <th scope="col">
+                                        <div class="tableColumnIdentifier">
+                                            واحد
+                                        </div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="tableColumnIdentifier">
+                                            استاد
+                                        </div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="tableColumnIdentifier">
+                                            نام درس
+                                        </div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="tableColumnIdentifier">
+                                            کد
+                                        </div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="tableColumnIdentifier">
+                                            وضعیت
+                                        </div>
+                                    </th>
+                                    <th scope="col"></th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="tableRowIdentifier">
+                                            ۳
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            آزاده شاکری
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            پایگاه داده ها
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            ۸۱۰۱۸۶۴-۰۱
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableStatusContent">
+                                            <div class="finalized">
+                                                ثبت شده
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="defaultButton tableRemoveIcon">
+                                            <i class="flaticon-trash-bin"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="tableRowIdentifier">
+                                            ۲
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            محمد تنها
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            اندیشه اسلامی ۱
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            ۱۱۲۰۰۰۱-۰۱
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableStatusContent">
+                                            <div class="finalized">
+                                                ثبت شده
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="defaultButton tableRemoveIcon">
+                                            <i class="flaticon-trash-bin"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="tableRowIdentifier">
+                                            ۳
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            رامتین خسروی
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            مهندسی نرم افزار
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            ۸۱۰۱۲۹۹-۰۱
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableStatusContent">
+                                            <div class="notFinalized">
+                                                ثبت نهایی نشده
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="defaultButton tableRemoveIcon">
+                                            <i class="flaticon-trash-bin"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="tableRowIdentifier">
+                                            ۳
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            حکیمه فدایی
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            نظریه زبان ها و ماشین ها
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableTextContent">
+                                            ۸۱۰۱۶۱۲-۰۱
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="tableStatusContent">
+                                            <div class="waiting">
+                                                در انتظار
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="defaultButton tableRemoveIcon">
+                                            <i class="flaticon-trash-bin"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row col-12 BottomCoursesList">
+                        <div class="col-8 col-sm-6" align="right">
+                            تعداد واحد های ثبت شده: ۱۵
+                        </div>
+                        <div class="col-4 col-sm-6" align="left">
+                            <button type="button" class="defaultButton">
+                                <i class="flaticon-refresh-arrow"></i>
+                            </button>
+                            <button type="button" class="FinalizeButton">
+                                ثبت نهایی
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 searchArea">
+                <div class="searchBar">
+                    <div class="col-8 col-sm-6 searchTextBox">
+                        <input type="text" id="searchText" name="searchText" placeholder="نام درس">
+                    </div>
+                    <div class="col-4 col-sm-6">
+                        <button type="button" class="searchButton">
+                            جستجو
+                            <i class="flaticon-loupe"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 rowArea">
+                <div class="areaMenu">
+                    <div class="menuTitle">
+                        دروس ارائه شده
+                    </div>
+                    <div class="offeringContents">
+                        <div class="row offeringFirstRow">
+                            <div class="col-2 defaultButton">
+                                <button type="button" class="chosenCategoryButton">
+                                    همه
+                                </button>
+                            </div>
+                            <div class="col-2 defaultButton">
+                                <button type="button" class="defaultCategoryButton">
+                                    اختصاصی
+                                </button>
+                            </div>
+                            <div class="col-2 defaultButton">
+                                <button type="button" class="defaultCategoryButton">
+                                    اصلی
+                                </button>
+                            </div>
+                            <div class="col-2 defaultButton">
+                                <button type="button" class="defaultCategoryButton">
+                                    پایه
+                                </button>
+                            </div>
+                            <div class="col-2 defaultButton">
+                                <button type="button" class="defaultCategoryButton">
+                                    عمومی
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row offeringTableArea">
+                            <div class="table-responsive offeringTable">
+                                <!--                    Table is implemented ltr so it's more readable-->
+                                <table class="table tableOfferings">
+                                    <tr>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier"> </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier">
+                                                کد
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier">
+                                                ظرفیت
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier">
+                                                نوع
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier">
+                                                نام درس
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier">
+                                                استاد
+                                            </div>
+                                        </th>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier">
+                                                واحد
+                                            </div>
+                                        </th>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tableColumnIdentifier tableDescription">
+                                                توضیحات
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="waitingOffer">
+                                                    <i class="flaticon-clock-circular-outline"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="yellow">
+                                                        عمومی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+<!--                                        Number based on number of offerings-->
+                                        <td rowspan="16">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="yellow">
+                                                        عمومی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="yellow">
+                                                        عمومی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="yellow">
+                                                        عمومی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="green">
+                                                        اصلی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="waitingOffer">
+                                                    <i class="flaticon-clock-circular-outline"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="green">
+                                                        اصلی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="green">
+                                                        اصلی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="green">
+                                                        اصلی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="waitingOffer">
+                                                    <i class="flaticon-clock-circular-outline"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="red">
+                                                        پایه
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="red">
+                                                        پایه
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="red">
+                                                        پایه
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="red">
+                                                        پایه
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="hoverMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="waitingOffer">
+                                                    <i class="flaticon-clock-circular-outline"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="blue">
+                                                        تخصصی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="BottomRowsMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="blue">
+                                                        تخصصی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="BottomRowsMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="waitingOffer">
+                                                    <i class="flaticon-clock-circular-outline"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="blue">
+                                                        تخصصی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="BottomRowsMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">
+                                            <div class="defaultButton">
+                                                <button type="button" class="addOfferButton">
+                                                    <i class="flaticon-add"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                ۸۱۰۱۸۶۴-۰۱
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableRowIdentifier">
+                                                ۲۶/۵۰
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                <div class="offerType">
+                                                    <div class="blue">
+                                                        تخصصی
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                پایگاه داده ها
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="tableTextContent">
+                                                آزاده شاکری
+                                            </div>
+                                        </td>
+                                        <td class="hoveringCellWithMessage">
+                                            <div class="tableRowIdentifier">
+                                                ۳
+                                            </div>
+                                            <span class="BottomRowsMessage">
+                                                ۹:۰۰ - ۱۰:۳۰
+                                                <br>
+                                                یکشنبه - سه شنبه
+                                                <br>
+                                                __________________
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    پیش نیازی ها
+                                                </div>
+                                                برنامه نویسی پیشرفته
+                                                <br>
+                                                <div class="hoverMessageTitle">
+                                                    امتحان
+                                                </div>
+                                                ۴/۱۵ - ۱۰:۳۰ - ۹:۰۰
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="icon m-2">
+            <div class="copyright">
+                <i class="flaticon-copyright"></i>
+            </div>
+        </div>
+        <div class="footer_text ml-auto">
+            دانشگاه تهران - سامانه جامع بلبل ستان
+        </div>
+        <div class="icon m-2">
+            <div class="socialMedia">
+                <i class="flaticon-twitter-logo-on-black-background"></i>
+            </div>
+        </div>
+        <div class="icon m-2">
+            <div class="socialMedia">
+                <i class="flaticon-instagram"></i>
+            </div>
+        </div>
+        <div class="icon m-2">
+            <div class="socialMedia">
+                <i class="flaticon-linkedin-logo"></i>
+            </div>
+        </div>
+        <div class="icon m-2">
+            <div class="socialMedia">
+                <i class="flaticon-facebook"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

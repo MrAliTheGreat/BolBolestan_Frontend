@@ -1,0 +1,280 @@
+@import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css");
+
+table.tableCourses, table.tableCourses th, table.tableCourses td {
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    direction: ltr;
+}
+
+.tableInfo{
+    height: 300px;
+    overflow: auto;
+}
+
+table.tableOfferings, table.tableOfferings td{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #0087E0;
+}
+
+.offeringTable {
+    height: 600px;
+    overflow: auto;
+}
+
+.tableColumnIdentifier{
+    color: #1A4C89;
+    font-size: 25px;
+}
+
+.tableDescription{
+    min-width: 120px;
+}
+
+.tableRowIdentifier{
+    color: #1A4C89;
+    font-size: 18px;
+}
+
+.tableTextContent{
+    color: grey;
+    font-size: 15px;
+}
+
+.tableTextContent .offerType{
+    color: white;
+    border-radius: 5px;
+}
+
+.tableTextContent .offerType .yellow{
+    border: 1px solid #EDBB41;
+    background: #EDBB41;
+    border-radius: 5px;
+}
+
+.tableTextContent .offerType .red{
+    border: 1px solid #FF595E;
+    background: #FF595E;
+    border-radius: 5px;
+}
+
+.tableTextContent .offerType .blue{
+    border: 1px solid #0087E0;
+    background: #0087E0;
+    border-radius: 5px;
+}
+
+.tableTextContent .offerType .green{
+    border: 1px solid #06D6A0;
+    background: #06D6A0;
+    border-radius: 5px;
+}
+
+.tableStatusContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: white;
+    font-size: 20px;
+}
+
+.tableStatusContent .finalized{
+    border: 1px solid #28A745;
+    color: #28A745;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tableStatusContent .notFinalized{
+    border: 1px solid #1FA5FF;
+    color: #1FA5FF;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tableStatusContent .waiting{
+    border: 1px solid grey;
+    color: grey;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tableRemoveIcon{
+    color: #FF595E;
+    position: relative;
+    font-size: 25px;
+    top: 5px;
+}
+
+.hoveringCellWithMessage{
+    position:relative;
+}
+
+.hoveringCellWithMessage .hoverMessage{
+    visibility: hidden;
+    position:absolute;
+    z-index:100;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color:white;
+    padding:3px;
+    color:grey;
+    top:10px;
+    right:109%;
+}
+
+.hoveringCellWithMessage .BottomRowsMessage{
+    visibility: hidden;
+    position:absolute;
+    z-index:100;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color:white;
+    padding:3px;
+    color:grey;
+    top:-155px;
+    right:109%;
+}
+
+.hoveringCellWithMessage:hover span.hoverMessage{
+    visibility: visible;
+}
+
+.hoveringCellWithMessage:hover span.BottomRowsMessage{
+    visibility: visible;
+}
+
+.hoveringCellWithMessage .hoverMessageTitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tableInfo2{
+    height: 100%;
+    overflow: auto;
+}
+table.tableCourses2, table.tableCourses2 th, table.tableCourses2 td {
+    border: 2px solid gray;
+    text-align: center;
+    vertical-align: top;
+}
+.tableTextContent2{
+    color: gray;
+    font-size: 13px;
+    padding : 15px;
+}
+.tableColumnIdentifier2{
+    color: gray;
+    font-size: 13px;
+    padding : 15px;
+}
+.tableRowIdentifier2{
+    color: gray;
+    font-size: 13px;
+    padding : 15px;
+}
+
+.startRow{
+    position: relative;
+    margin-top: -11px;
+    width: 100%;
+}
+
+.startRow .scheduleBox{
+    color: black;
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+    opacity: 0.73;
+    font-weight: bold;
+}
+
+.startRow .startTime7-30{
+    margin-top: 0px;
+}
+
+.startRow .startTime8{
+    margin-top: 37px;
+}
+
+.startRow .startTime9{
+    margin-top: 75px;
+}
+
+.startRow .startTime10-30{
+    margin-top: 187px;
+}
+
+.startRow .startTime13{
+    margin-top: 378px;
+}
+
+.startRow .startTime14{
+    margin-top: 455px;
+}
+
+.startRow .startTime16{
+    margin-top: 604px;
+}
+
+.startRow .red{
+    background: #FF595E;
+    box-shadow: 5px 0px firebrick;
+}
+
+.startRow .yellow{
+    background: #EDBB41;
+    box-shadow: 5px 0px gold;
+}
+
+.startRow .green{
+    background: #06D6A0;
+    box-shadow: 5px 0px #28A745;
+}
+
+.startRow .blue{
+    background: #1FA5FF;
+    box-shadow: 5px 0px #1A4C89;
+}
+
+.startRow .scheduleBox .oneSession{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 73px;
+    text-align: center;
+}
+
+.startRow .scheduleBox .oneHalfSession{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 111px;
+    text-align: center;
+}
+
+.startRow .scheduleBox .twoSession{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 147px;
+    text-align: center;
+}
+
+.startRow .scheduleBox .threeSession{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 222px;
+    text-align: center;
+}
+
+.firstColumn{
+    min-width: 130px;
+}
